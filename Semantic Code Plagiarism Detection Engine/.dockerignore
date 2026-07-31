@@ -1,0 +1,22 @@
+# Ignore target directories
+**/target/
+target/
+
+# Ignore source code control files
+.git/
+.gitignore
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Ignore documentation & local test files
+README.md
+API.md
+sample-data/
+docker-compose.yml
+Dockerfile
+LICENSE
